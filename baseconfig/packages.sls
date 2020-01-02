@@ -4,3 +4,10 @@ common_packages:
       - amd64-microcode
       - intel-microcode
       - dos2unix
+      - gdisk
+      - testdisk
+      - mc
+      - zip
+      - unzip
+      - p7zip-full
+      - p7zip-rar

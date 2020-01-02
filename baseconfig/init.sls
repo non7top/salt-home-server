@@ -6,3 +6,4 @@ include:
   - baseconfig.apt
   - baseconfig.packages
   - baseconfig.systemd
+  - baseconfig.locale
