@@ -15,6 +15,25 @@ purge_desktop:
 #    - onchanges_in:
 #      - cmd: apt_autoremove
 
+gnome-shell:
+  pkg.purged
+
+nautilus:
+  pkg.purged:
+    - name: nautilus
+
+gnome-cruft:
+  pkg.purged:
+    - name: gnome-shell
+
+
+openssh-server:
+  pkg.installed
+
+r8168-dkms:
+  pkg.installed
+
+
 apt_autoremove:
   cmd.run:
     - name: apt autoremove --purge -y

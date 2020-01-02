@@ -4,3 +4,4 @@ include:
   - baseconfig.snapd
   - baseconfig.vim
   - baseconfig.apt
+  - baseconfig.packages
