@@ -3,3 +3,4 @@ include:
   - baseconfig.salt
   - baseconfig.snapd
   - baseconfig.vim
+  - baseconfig.apt
