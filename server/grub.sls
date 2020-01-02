@@ -4,7 +4,7 @@ grub-pc:
 /etc/default/grub:
   file.managed:
     - source: salt://server/files/grub
-    - watch_in:
+    - onchanges_in:
       - cmd: update_grub
 
 update_grub:
