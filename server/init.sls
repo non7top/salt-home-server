@@ -1,3 +1,6 @@
+include:
+  - server.grub
+#
 # Ensure default target is set to 'multi-user.target' (non-graphical). Change to 'graphical.target' if that is what you prefer
 systemd_default_target:
   cmd.run:
@@ -34,6 +37,6 @@ r8168-dkms:
   pkg.installed
 
 
-apt_autoremove:
-  cmd.run:
-    - name: apt autoremove --purge -y
+#apt_autoremove:
+#  cmd.run:
+#    - name: apt autoremove --purge -y
