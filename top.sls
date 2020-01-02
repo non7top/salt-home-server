@@ -2,3 +2,4 @@ base:
   '*':
     - baseconfig
     - server
+    - samba
