@@ -5,3 +5,4 @@ include:
   - baseconfig.vim
   - baseconfig.apt
   - baseconfig.packages
+  - baseconfig.systemd
